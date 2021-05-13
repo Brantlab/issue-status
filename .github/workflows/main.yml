@@ -11,7 +11,7 @@ jobs:
         run: |
           npm install
           git config --global user.name "Brantlab"
-          git config --global user.email "Justin@brantlab.com"
+          git config --global user.email "justin@brantlab.com"
           npm run deploy
           
       - name: Deploy 🚀
