@@ -12,7 +12,7 @@ jobs:
           npm install
           git config --global user.name "Brantlab"
           git config --global user.email "justin@brantlab.com"
-          npm run deploy
+          npm run build
           
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.2
